@@ -10,10 +10,6 @@ Head over to the 'Releases' tab, and grab the crx file you want. PTB and Canary 
 
 That's it! You're done.
 
-## Updates
-
-The app doesn't automatically update, to update it, just follow the installation instructions.
-
 ## License
 
 This app is licensed under the GNU GPL v3. No warranty, either implied or stated, is available. 

@@ -1,5 +1,7 @@
 # Discord Chrome App
 
+*Note: To view the Canary and PTB versions head to their branch.*
+
 ## Introduction 
 
 I wanted a good way to have Discord on my Chromebook, but most of the existing Chrome apps didn't have the mic and camera working. So I made this. After testing, camera and mic work fine. This will also work on Windows and Mac. I haven't tested Linux.

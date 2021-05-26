@@ -21,6 +21,11 @@ window.onkeydown = function (e) {
     var modifierActive = (navigator.platform.startsWith('Mac')) ? e.metaKey : e.ctrlKey;
     var altModifierActive = (navigator.platform.startsWith('Mac')) ? e.ctrlKey : e.altKey;
 
+    // Start DevTools
+    if (modifierActive && e.keyCode == 'I'.charCodeAt(0)) {
+        chrome.experimental.webInspector();
+    }
+    
     // Enter full screen mode (CMD/ALT + CTRL + F)
     if (modifierActive && altModifierActive && e.keyCode == 'F'.charCodeAt(0)) {
         // Get current focused window
